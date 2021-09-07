@@ -185,6 +185,26 @@ console.log( v );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/dmskmax`][@stdlib/stats/base/dmskmax]: calculate the maximum value of a double-precision floating-point strided array according to a mask.
+-   [`@stdlib/stats/base/max`][@stdlib/stats/base/max]: calculate the maximum value of a strided array.
+-   [`@stdlib/stats/base/mskmin`][@stdlib/stats/base/mskmin]: calculate the minimum value of a strided array according to a mask.
+-   [`@stdlib/stats/base/nanmax`][@stdlib/stats/base/nanmax]: calculate the maximum value of a strided array, ignoring NaN values.
+-   [`@stdlib/stats/base/smskmax`][@stdlib/stats/base/smskmax]: calculate the maximum value of a single-precision floating-point strided array according to a mask.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -244,9 +264,19 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
+<!-- <related-links> -->
+
 [@stdlib/stats/base/dmskmax]: https://github.com/stdlib-js/stats-base-dmskmax
 
+[@stdlib/stats/base/max]: https://github.com/stdlib-js/stats-base-max
+
+[@stdlib/stats/base/mskmin]: https://github.com/stdlib-js/stats-base-mskmin
+
+[@stdlib/stats/base/nanmax]: https://github.com/stdlib-js/stats-base-nanmax
+
 [@stdlib/stats/base/smskmax]: https://github.com/stdlib-js/stats-base-smskmax
+
+<!-- </related-links> -->
 
 </section>
 
