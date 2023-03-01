@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/mskmax"
-click B href "https://github.com/stdlib-js/stats-base-mskmax/tree/main"
-click C href "https://github.com/stdlib-js/stats-base-mskmax/tree/production"
-click D href "https://github.com/stdlib-js/stats-base-mskmax/tree/esm"
-click E href "https://github.com/stdlib-js/stats-base-mskmax/tree/deno"
-click F href "https://github.com/stdlib-js/stats-base-mskmax/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/mskmax"
+%% click B href "https://github.com/stdlib-js/stats-base-mskmax/tree/main"
+%% click C href "https://github.com/stdlib-js/stats-base-mskmax/tree/production"
+%% click D href "https://github.com/stdlib-js/stats-base-mskmax/tree/esm"
+%% click E href "https://github.com/stdlib-js/stats-base-mskmax/tree/deno"
+%% click F href "https://github.com/stdlib-js/stats-base-mskmax/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/mskmax
