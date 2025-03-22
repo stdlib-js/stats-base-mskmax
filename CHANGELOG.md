@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-21)
+## Unreleased (2025-03-22)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`551a3e9`](https://github.com/stdlib-js/stdlib/commit/551a3e98ea77425d799c59a9f1b61b6f78a1d1ee) - **docs:** update related packages sections [(#6274)](https://github.com/stdlib-js/stdlib/pull/6274) _(by stdlib-bot)_
 -   [`417e653`](https://github.com/stdlib-js/stdlib/commit/417e65361234ec46382f58cc303a544f5bbcbf9e) - **feat:** add support for accessor arrays and refactor `stats/base/mskmax` [(#5356)](https://github.com/stdlib-js/stdlib/pull/5356) _(by Vivek Maurya, Athan Reines)_
 
 </details>

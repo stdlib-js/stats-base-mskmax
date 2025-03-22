@@ -156,7 +156,6 @@ var v = mskmax.ndarray( 4, x, 2, 1, mask, 2, 1 );
 -   Depending on the environment, the typed versions ([`dmskmax`][@stdlib/stats/base/dmskmax], [`smskmax`][@stdlib/stats/base/smskmax], etc.) are likely to be significantly more performant.
 -   Both functions support array-like objects having getter and setter accessors for array element access (e.g., [`@stdlib/array-base/accessor`][@stdlib/array/base/accessor]).
 
-
 </section>
 
 <!-- /.notes -->
@@ -282,9 +281,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [mdn-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
-
 [@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor
-
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
