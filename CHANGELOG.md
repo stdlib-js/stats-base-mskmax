@@ -22,6 +22,8 @@
 
 <details>
 
+-   [`b00201a`](https://github.com/stdlib-js/stdlib/commit/b00201a04d19fe4de3064906472f07b79a201ef7) - **chore:** clean-up _(by Athan Reines)_
+-   [`bba5f34`](https://github.com/stdlib-js/stdlib/commit/bba5f34762bd42ead771ac53349ec7c333cbf38a) - **chore:** clean-up _(by Athan Reines)_
 -   [`d598da2`](https://github.com/stdlib-js/stdlib/commit/d598da22bd1517f6a1ae8228695bc03bf1d77d37) - **chore:** clean-up _(by Athan Reines)_
 -   [`87d0fae`](https://github.com/stdlib-js/stdlib/commit/87d0faeb87ce6a1190289605dbed97d168d3d46e) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`ba34630`](https://github.com/stdlib-js/stdlib/commit/ba346304a852e3aeb7525ed0da088139f7a33904) - **refactor:** update paths _(by Aayush Khanna)_
