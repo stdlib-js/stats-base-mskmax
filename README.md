@@ -41,20 +41,32 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-mskmax
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import mskmax from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-mskmax@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-mskmax@deno/mod.js';
+var mskmax = require( '@stdlib/stats-base-mskmax' );
 ```
 
 #### mskmax( N, x, strideX, mask, strideMask )
@@ -92,8 +104,8 @@ Note that indexing is relative to the first index. To introduce offsets, use [`t
 <!-- eslint-disable stdlib/capitalized-comments -->
 
 ```javascript
-import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@deno/mod.js';
+var Float64Array = require( '@stdlib/array-float64' );
+var Uint8Array = require( '@stdlib/array-uint8' );
 
 var x0 = new Float64Array( [ 2.0, 1.0, -2.0, -2.0, 3.0, 4.0, 5.0, 6.0 ] );
 var x1 = new Float64Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
@@ -155,9 +167,9 @@ var v = mskmax.ndarray( 4, x, 2, 1, mask, 2, 1 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
-import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@deno/mod.js';
-import mskmax from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-mskmax@deno/mod.js';
+var uniform = require( '@stdlib/random-array-uniform' );
+var bernoulli = require( '@stdlib/random-array-bernoulli' );
+var mskmax = require( '@stdlib/stats-base-mskmax' );
 
 var x = uniform( 10, -50.0, 50.0, {
     'dtype': 'float64'
@@ -186,7 +198,7 @@ console.log( v );
 ## See Also
 
 -   <span class="package-name">[`@stdlib/stats-strided/dmskmax`][@stdlib/stats/strided/dmskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a double-precision floating-point strided array according to a mask.</span>
--   <span class="package-name">[`@stdlib/stats-base/max`][@stdlib/stats/base/max]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array.</span>
+-   <span class="package-name">[`@stdlib/stats-strided/max`][@stdlib/stats/strided/max]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array.</span>
 -   <span class="package-name">[`@stdlib/stats-base/mskmin`][@stdlib/stats/base/mskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array according to a mask.</span>
 -   <span class="package-name">[`@stdlib/stats-base/nanmax`][@stdlib/stats/base/nanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats-strided/smskmax`][@stdlib/stats/strided/smskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a single-precision floating-point strided array according to a mask.</span>
@@ -204,7 +216,7 @@ console.log( v );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -269,21 +281,21 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [mdn-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
-[@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor/tree/deno
+[@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 <!-- <related-links> -->
 
-[@stdlib/stats/strided/dmskmax]: https://github.com/stdlib-js/stats-strided-dmskmax/tree/deno
+[@stdlib/stats/strided/dmskmax]: https://github.com/stdlib-js/stats-strided-dmskmax
 
-[@stdlib/stats/base/max]: https://github.com/stdlib-js/stats-base-max/tree/deno
+[@stdlib/stats/strided/max]: https://github.com/stdlib-js/stats-strided-max
 
-[@stdlib/stats/base/mskmin]: https://github.com/stdlib-js/stats-base-mskmin/tree/deno
+[@stdlib/stats/base/mskmin]: https://github.com/stdlib-js/stats-base-mskmin
 
-[@stdlib/stats/base/nanmax]: https://github.com/stdlib-js/stats-base-nanmax/tree/deno
+[@stdlib/stats/base/nanmax]: https://github.com/stdlib-js/stats-base-nanmax
 
-[@stdlib/stats/strided/smskmax]: https://github.com/stdlib-js/stats-strided-smskmax/tree/deno
+[@stdlib/stats/strided/smskmax]: https://github.com/stdlib-js/stats-strided-smskmax
 
 <!-- </related-links> -->
 
